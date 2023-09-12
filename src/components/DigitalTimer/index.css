@@ -1,0 +1,106 @@
+/* Write your CSS here */
+* {
+  font-family: 'roboto';
+}
+.main-bg {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.main-head {
+  text-align: center;
+  color: #0f172a;
+  font-weight: 600;
+  font-size: 35px;
+}
+.central-bg {
+  display: flex;
+  justify-content: space-around;
+  height: 90vh;
+  width: 90vw;
+}
+.bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  height: 650px;
+  width: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-container {
+  background-color: #ffffff;
+  height: 180px;
+  width: 185px;
+  border-radius: 87px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.count-down {
+  color: #00d9f5;
+}
+.condition {
+  font-weight: bold;
+  font-size: 25px;
+}
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.start-pause-reset {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.start-pause {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reset-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.start-pause-reset-image {
+  height: 30px;
+  width: 30px;
+}
+.text {
+  font-size: 25px;
+  font-weight: bold;
+}
+.timer-head {
+  font-size: 16px;
+}
+.timer-buttons-container {
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  font-size: 30px;
+  padding: 20px;
+  color: black;
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+}
+.value-container {
+  background-image: linear-gradient(to right, #cffcf1, #defafe, #00d9f5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  height: 25px;
+  width: 80px;
+  margin-top: 8px;
+}
